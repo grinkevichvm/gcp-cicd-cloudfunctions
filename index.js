@@ -4,6 +4,6 @@
 //-----------------------------------------------------------------------------
 
 exports.helloWorld = (req, res) => {
-  const message="<font color='blue'>СloudFunction of GVM ! PROD !!!!!</font><br><b>App Version 1.1</b>";
+  const message="<font color='blue'>СloudFunction of GVM ! PROD !!!!!</font><br><b>App Version 1000.1</b>";
   res.status(200).send(message);
 };
